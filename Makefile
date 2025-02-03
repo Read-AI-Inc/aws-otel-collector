@@ -33,7 +33,7 @@ LDFLAGS=-ldflags "-s -w -X $(BUILD_INFO_IMPORT_PATH).GitHash=$(GIT_SHA) \
 
 GOOS=$(shell go env GOOS)
 GOARCH=$(shell go env GOARCH)
-DOCKER_NAMESPACE=amazon
+DOCKER_NAMESPACE=982262549137.dkr.ecr.us-east-1.amazonaws.com/readai-customized
 COMPONENT=awscollector
 TOOLS_MOD_DIR := $(abspath ./tools/workflow/linters)
 TOOLS_BIN_DIR := $(abspath ./bin)
